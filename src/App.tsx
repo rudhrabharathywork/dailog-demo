@@ -10,7 +10,7 @@ function App() {
   };
 
     useEffect(() => {
-      userflow.init(import.meta.env.VITE_USERFLOW_ENV_ID);
+      userflow.init("ct_rpfoe5p3ava35c7bfaekl63npq");
       userflow.identify("randomdemomail@gmail.com", {
         name: "Dailog Modal Test User",
         email: "randomdemomail@gmail.com",
